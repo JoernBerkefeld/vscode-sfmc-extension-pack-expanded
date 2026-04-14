@@ -1,8 +1,8 @@
 {
     "name": "sfmc-extension-pack-expanded",
-    "displayName": "SFMC Extension Pack (Expanded)",
+    "displayName": "SFMC Extension Pack Plus",
     "description": "SFMC Data Loader, SFMC DevTools, SFMC Language Service, plus ESLint, Prettier, and EditorConfig for a typical SFMC project toolchain.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "joernberkefeld",
     "license": "MIT",
     "repository": {
