@@ -1,0 +1,56 @@
+{
+    "name": "sfmc-extension-pack-expanded",
+    "displayName": "SFMC Extension Pack (Expanded)",
+    "description": "SFMC Data Loader, SFMC DevTools, SFMC Language Service, plus ESLint, Prettier, and EditorConfig for a typical SFMC project toolchain.",
+    "version": "0.1.0",
+    "publisher": "joernberkefeld",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JoernBerkefeld/vscode-sfmc-extension-pack-expanded.git"
+    },
+    "bugs": {
+        "url": "https://github.com/JoernBerkefeld/vscode-sfmc-extension-pack-expanded/issues"
+    },
+    "engines": {
+        "vscode": "^1.101.0"
+    },
+    "categories": ["Extension Packs"],
+    "keywords": ["sfmc", "salesforce", "marketing cloud", "extension pack", "eslint", "prettier"],
+    "icon": "resources/images/pack-expanded-v2-transparent-256.png",
+    "galleryBanner": {
+        "color": "#032d60",
+        "theme": "dark"
+    },
+    "main": "./extension.js",
+    "extensionPack": [
+        "joernberkefeld.sfmc-data",
+        "Accenture-oss.sfmc-devtools-vscode",
+        "joernberkefeld.sfmc-language",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "EditorConfig.EditorConfig"
+    ],
+    "activationEvents": ["onStartupFinished"],
+    "contributes": {},
+    "scripts": {
+        "lint": "eslint .",
+        "lint:fix": "eslint --fix .",
+        "prepare": "husky || true",
+        "test": "node --test test/**/*.test.mjs",
+        "vscode:prepublish": "node -e \"require('fs').accessSync('extension.js')\"",
+        "package": "npx @vscode/vsce package"
+    },
+    "devDependencies": {
+        "@eslint/js": "^10.0.1",
+        "@vscode/vsce": "^3.7.1",
+        "eslint": "^10.1.0",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-plugin-jsdoc": "^62.0.0",
+        "eslint-plugin-prettier": "^5.5.0",
+        "eslint-plugin-unicorn": "^64.0.0",
+        "globals": "^17.4.0",
+        "husky": "^9.1.7",
+        "prettier": "^3.8.1"
+    }
+}
