@@ -1,6 +1,6 @@
-# SFMC Extension Pack (Expanded)
+# SFMC Extension Pack Plus
 
-VS Code **extension pack** that installs:
+VS Code **extension pack** that installs the core SFMC extensions plus ESLint, Prettier, and EditorConfig:
 
 **SFMC**
 
