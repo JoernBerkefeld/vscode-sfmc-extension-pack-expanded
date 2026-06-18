@@ -7,6 +7,7 @@ VS Code **extension pack** that installs the core SFMC extensions plus ESLint, P
 - [SFMC Data Loader](https://marketplace.visualstudio.com/items?itemName=joernberkefeld.sfmc-data)
 - [SFMC DevTools](https://marketplace.visualstudio.com/items?itemName=Accenture-oss.sfmc-devtools-vscode)
 - [SFMC Language Service](https://marketplace.visualstudio.com/items?itemName=joernberkefeld.sfmc-language)
+- [MSO Conditionals](https://marketplace.visualstudio.com/items?itemName=joernberkefeld.mso-conditionals)
 
 **Editor tooling**
 
