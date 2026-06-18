@@ -13,6 +13,7 @@ test('extensionPack lists SFMC extensions then editor tooling', () => {
         'joernberkefeld.sfmc-data',
         'Accenture-oss.sfmc-devtools-vscode',
         'joernberkefeld.sfmc-language',
+        'joernberkefeld.mso-conditionals',
         'dbaeumer.vscode-eslint',
         'esbenp.prettier-vscode',
         'EditorConfig.EditorConfig',
