@@ -17,6 +17,7 @@ test('extensionPack lists SFMC extensions then editor tooling', () => {
         'dbaeumer.vscode-eslint',
         'esbenp.prettier-vscode',
         'EditorConfig.EditorConfig',
+        'johnpapa.vscode-peacock',
     ]);
 });
 

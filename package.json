@@ -1,8 +1,8 @@
 {
     "name": "sfmc-extension-pack-expanded",
     "displayName": "SFMC Extension Pack Plus",
-    "description": "SFMC Data Loader, SFMC DevTools, SFMC Language Service, MSO Conditionals, plus ESLint, Prettier, and EditorConfig for a typical SFMC project toolchain.",
-    "version": "0.1.2",
+    "description": "SFMC Data Loader, SFMC DevTools, SFMC Language Service, MSO Conditionals, plus ESLint, Prettier, EditorConfig, and Peacock for a typical SFMC project toolchain.",
+    "version": "0.2.0",
     "publisher": "joernberkefeld",
     "license": "MIT",
     "repository": {
@@ -39,7 +39,8 @@
         "joernberkefeld.mso-conditionals",
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
-        "EditorConfig.EditorConfig"
+        "EditorConfig.EditorConfig",
+        "johnpapa.vscode-peacock"
     ],
     "activationEvents": [
         "onStartupFinished"

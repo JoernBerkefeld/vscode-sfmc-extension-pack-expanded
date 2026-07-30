@@ -14,6 +14,7 @@ VS Code **extension pack** that installs the core SFMC extensions plus ESLint, P
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+- [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock) - colour-codes each VS Code window. This is especially handy for SI partners who juggle several SFMC client projects at once: a distinct window colour per project means you always know at a glance which client you are looking at.
 
 This pack has no code beyond installing those extensions.
 
